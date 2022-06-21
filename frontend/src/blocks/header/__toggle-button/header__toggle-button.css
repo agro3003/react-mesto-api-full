@@ -1,0 +1,22 @@
+.header__toggle-button{  
+  display: none;
+  background-image: url(../../../images/header-toggle.svg);
+  background-color: inherit;
+  border-style: none;
+  width: 24px;
+  height: 21px;
+  cursor: pointer;
+  transition: opacity 1s linear;
+}
+
+.header__toggle-button:hover {
+  opacity: 0.8;
+}
+
+@media(max-width: 500px) {
+  .header__toggle-button{
+    display: block;
+    grid-area: toggle;
+    margin-right: 30px;
+  }
+}

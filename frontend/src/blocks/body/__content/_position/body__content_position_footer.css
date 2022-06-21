@@ -1,0 +1,10 @@
+.body__content_position_footer {
+  margin-top: 66px;
+  padding-bottom: 60px;
+}
+@media(max-width: 930px) {
+  .body__content_position_footer {
+    margin-top: 48px;
+    padding-bottom: 36px;
+  }
+}

@@ -1,0 +1,9 @@
+.body__content_position_header {
+  padding-top: 45px;
+}
+
+@media(max-width: 340px) {
+  .body__content_position_header {
+    padding-top: 28px;
+  }
+}

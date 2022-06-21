@@ -1,0 +1,16 @@
+.header {
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  display: grid;
+  grid-template-areas: "logo content";
+
+  justify-content: space-between;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+}
+
+@media(max-width: 500px) {
+  .header{
+    grid-template-areas: "content content"
+                         "logo toggle";
+  }
+}

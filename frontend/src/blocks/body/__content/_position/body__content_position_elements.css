@@ -1,0 +1,9 @@
+.body__content_position_elements {
+  margin-top: 50px;
+}
+
+@media(max-width: 930px) {
+  .body__content_position_elements {
+    margin-top: 36px;
+  }
+}

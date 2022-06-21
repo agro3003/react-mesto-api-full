@@ -1,0 +1,7 @@
+
+@media(max-width: 500px) {
+  .header__link_logged-out{
+    grid-area: toggle;
+    margin-right: 30px;
+  }
+}

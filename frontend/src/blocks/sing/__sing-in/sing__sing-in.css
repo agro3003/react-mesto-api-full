@@ -1,0 +1,25 @@
+.sing__sign-in {
+  display: flex;
+  color: #fff;
+  margin: 15px 0 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  justify-content: center;
+}
+
+.sing__sign-in p {
+  margin: 0;
+}
+
+.sing__sign-in a {
+  text-decoration: none;
+  margin: 0;
+  color: #fff;
+  cursor: pointer;
+  transition: opacity 1s linear;
+}
+
+.sing__sign-in a:hover {
+  opacity: 0.8;
+}

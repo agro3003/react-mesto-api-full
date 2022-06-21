@@ -1,0 +1,13 @@
+.profile__button-edit-avatar {
+  margin: 0;
+  padding: 0;
+  background-color: inherit;
+  border: none;
+}
+
+.profile__button-edit-avatar:hover {
+  background-image: url(../../../images/profile-Edit-Button.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 26px;
+}

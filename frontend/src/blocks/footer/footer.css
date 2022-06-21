@@ -1,0 +1,6 @@
+.footer {
+  visibility: hidden;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  display: flex;
+}

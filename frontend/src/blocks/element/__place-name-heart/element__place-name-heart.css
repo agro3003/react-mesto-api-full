@@ -1,0 +1,7 @@
+.element__place-name-heart {
+  margin: 21px 25px 31px 15px;
+  border-radius: 0 0 4% 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

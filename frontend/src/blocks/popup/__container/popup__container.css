@@ -1,0 +1,21 @@
+.popup__container {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  padding: 0 36px 0;
+  width: calc(430px - 72px);
+  /*min-height: 330px;*/
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media(max-width: 500px) {
+  .popup__container {
+    padding: 0 22px 0;
+    width: 238px;
+    min-height: 322px;
+  }
+}

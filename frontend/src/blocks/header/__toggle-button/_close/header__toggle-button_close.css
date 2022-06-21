@@ -1,0 +1,5 @@
+.header__toggle-button_close{
+  background-image: url(../../../../images/popup-close-button.svg);
+  width: 23px;
+  background-size:cover;
+}
